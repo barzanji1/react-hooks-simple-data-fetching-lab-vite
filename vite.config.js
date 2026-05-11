@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// Vitest configuration for jsdom testing environment 
 export default defineConfig({
   plugins: [react()],
   test: {
